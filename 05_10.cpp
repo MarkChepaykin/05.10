@@ -8,6 +8,7 @@ private:
 
   static const std::string ZERO_DIVISION_ERROR;
 
+  
 public:
   Fraction() : numerator(0), denominator(1) {}
 
