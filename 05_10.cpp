@@ -26,7 +26,7 @@ public:
 
     if (std::cin.fail()) {
       std::cin.clear();
-      std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+      std::cin.ignore();
       std::cout << "Invalid input. Setting to default values.\n";
       numerator = 0;
       denominator = 1;
@@ -90,7 +90,7 @@ int main() {
 
     if (std::cin.fail()) {
       std::cin.clear();
-      std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+      std::cin.ignore();
       std::cout << "Invalid choice. Try again.\n";
       continue;
     }
