@@ -73,7 +73,6 @@ const std::string Fraction::ZERO_DIVISION_ERROR =
     "make any sense at all.\n";
 
 int main() {
-  cout << "This is us hacking achievements";
   Fraction x, y, result;
   int choice;
 
@@ -122,3 +121,6 @@ int main() {
     }
   }
 }
+
+
+// This is a test commit
